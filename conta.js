@@ -12,7 +12,9 @@ console.log('Conseguir tudo isso com a programação')
 let novosalario = 6980
 console.log(novosalario)
 
-const conta1 = novosalario -conta
+let fatura = 3502
+
+const conta1 = novosalario - fatura
 console.log(conta1)
 
 //acordar todo dia de 8 horas da manah ir treinar de manha e estudar umas 2 horas por dia focar muito esses dias 
