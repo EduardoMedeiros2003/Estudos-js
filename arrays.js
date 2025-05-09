@@ -29,3 +29,14 @@ console.log(strings);
 //trasformando um array em uma string 
 const strng1 = nomes.join(' ');
 console.log(strng1)
+
+//arry de numeros 
+console.log('Numeros nos arrays');
+
+const a1 = [1,2,3]
+const a2 = [4,5,6]
+const a3 = a1.concat(a2, [7,8,9], 'Numeros dos arrays')
+console.log(a3);
+console.log('outro método');
+const a4 = [...a1, ...a2, ...[7,8,9], 'Outra forma de fazer a junção dos arrays']
+console.log(a4);
