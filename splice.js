@@ -21,3 +21,5 @@ console.log(push, removidos2);
 const anshift = ['Maria', 'João', 'Eduardo', 'Gabriel', 'Júlia'];
 const removidos3 = anshift.splice(0,0, 'Laura')
 console.log(anshift, removidos3);
+
+//arrays
